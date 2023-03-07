@@ -68,7 +68,7 @@ CSS da main
   width: 100%;
   margin: 2rem auto;
   color: 00682D;
-  
+  max-width: 80%;
 }
 
 .principal h1 {
@@ -107,7 +107,8 @@ CSS da main
 
 main .informacao-entrega {
   width: 60%;
-  text-align: left;
+  
+
 
 
 }

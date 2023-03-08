@@ -1,8 +1,6 @@
 .carrinho-principal{
     width: 75rem;
     margin: 2rem auto;
-   
-    
 }
 
 .img-sacola{
@@ -36,17 +34,31 @@
 
 .final-carrinho{
     display: flex;
+    max-width: 700px;
     flex-direction: row-reverse;
     font-size: 20px;
     font-weight: bold;
     margin-top: 50px;
 
 }
+.final-carrinho form input{
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.final-carrinho form button {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+}
 
 .p-sacola{
     font-size: 20px;
     margin-top: 150px;
-   
 }
 
 .p-sacola p{
@@ -57,8 +69,6 @@
 
 .p-sacola a{
     text-decoration: none;
-    
-    
 }
 
 .final-compra{

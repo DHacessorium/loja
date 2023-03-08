@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="./js/carrinho.js"></script>
     <title></title>
 </head>
 <body>
@@ -64,21 +65,22 @@
 
 
         <section class="final-carrinho">
-
-            <article class="p-sacola">
+            <form>
+                <label for="">Digite seu CEP: </label>
+                <input type="number" id="cep">
+                <button onclick="consultaEndereco()">Consultar</button>
+                <div id="resultado">
+                    <p></p>
+                </div>
+            </form>
+            
+            <div class="p-sacola">
                 <p>Total: R$ 150,00</p>
                 <p class="final-compra"> <a href="compra-finalizada.html">Finalizar Compra</a></p>
                 <p class="continua-compra"><a href="shop.html">Continuar comprando</a></p>
-            </article>
+            </div>
 
         </section>
-        
-
-
-        
-        
-
-    
     </main>
 
     <footer>
